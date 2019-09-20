@@ -1,7 +1,7 @@
 class Contact:
     counter = 1
     def __init__(self, name, lastname, phone, email, address):
-        self._id = Contact.counter # TODO auto increment
+        self._id = Contact.counter
         Contact.counter += 1
         self.name = name
         self.lastname = lastname

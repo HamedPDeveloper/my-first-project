@@ -36,7 +36,7 @@ class Rectangle(Shape):
     def __repr__(self):
         return str(self)
 if __name__ == '__main__':
-    rec1 = Rectangle(4,5, 'Red')
+    rec1 = Rectangle(4,5, 'Yellow')
     rec2 = Rectangle(5,20 , 'Black')
     print(rec1)
     print(rec2)
